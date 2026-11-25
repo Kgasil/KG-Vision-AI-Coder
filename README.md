@@ -44,10 +44,20 @@ The prototype is designed to provide conceptual explanations, commented Python e
 - [x] Launched the Streamlit interface locally.
 - [x] Practiced debugging syntax, variable names and API method calls.
 - [ ] Verify end-to-end responses using a valid API key.
-- [ ] Publish authorized source code or an independently developed implementation.
-- [ ] Add reproducible setup instructions and automated tests.
+- [x] Publish a separate AI-assisted implementation (`code.py`).
+- [x] Document local setup and pinned dependencies.
+- [ ] Add automated tests.
 
-The local interface has been demonstrated. End-to-end API behavior has not yet been independently verified. This public repository currently documents the learning exercise; the classroom-derived source code is not included.
+The local interface has been demonstrated. End-to-end API behavior has not yet been independently verified. The original local prototype produced a response from Groq. This repository includes a separate ChatGPT-assisted implementation in `code.py`, not the original classroom-derived source. The public implementation has not yet been verified end to end.
+
+## Run locally
+
+```bash
+python -m pip install -r requirements.txt
+streamlit run code.py
+```
+
+Enter your own Groq API key in the sidebar. Installation in a fresh environment has not been independently verified.
 
 ## Learning roadmap
 
@@ -126,10 +136,20 @@ O protótipo foi projetado para fornecer explicações conceituais, exemplos com
 - [x] Execução local da interface Streamlit.
 - [x] Prática de depuração de erros de sintaxe, nomes de variáveis e chamadas de métodos da API.
 - [ ] Verificar as respostas de ponta a ponta utilizando uma chave de API válida.
-- [ ] Publicar o código-fonte autorizado ou uma implementação desenvolvida de forma independente.
-- [ ] Adicionar instruções de instalação reproduzíveis e testes automatizados.
+- [x] Publicar uma implementação separada assistida por IA (`code.py`).
+- [x] Documentar instalação local e versões das dependências.
+- [ ] Adicionar testes automatizados.
 
-A interface foi demonstrada em ambiente local. O funcionamento completo da API ainda não foi verificado de forma independente. Este repositório público documenta atualmente o exercício de aprendizado; o código-fonte derivado da aula não está incluído.
+A interface foi demonstrada em ambiente local. O funcionamento completo da API ainda não foi verificado de forma independente. O protótipo local original recebeu uma resposta da Groq. O repositório inclui uma implementação separada assistida pelo ChatGPT no arquivo `code.py`, não o código original da aula. A versão pública ainda não foi verificada de ponta a ponta.
+
+## Como executar localmente
+
+```bash
+python -m pip install -r requirements.txt
+streamlit run code.py
+```
+
+Insira sua própria chave da Groq na barra lateral. A instalação em um ambiente novo ainda não foi verificada.
 
 ## Roteiro de aprendizado e evolução
 
