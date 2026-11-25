@@ -2,6 +2,8 @@
 
 **Project Genesis | Project #001 | v1.0 — Learning prototype**
 
+[English](#overview) | [Português (Brasil)](#versão-em-português-pt-br)
+
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Learning%20Prototype-blue)
@@ -76,3 +78,85 @@ The original classroom demonstration is credited to Data Science Academy. This r
 Project Genesis is my independent learning initiative focused on building practical skills in programming, data and artificial intelligence. This repository records the starting point of that journey.
 
 **Author of the learning documentation:** [Kaio Gabriel da Silva](https://github.com/Kgasil)
+
+
+---
+
+# Versão em português (PT-BR)
+
+**Project Genesis | Projeto #001 | v1.0 — Protótipo de aprendizado**
+
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Prot%C3%B3tipo%20de%20aprendizado-blue)
+
+## Visão geral
+
+O K&G Vision é um protótipo educacional de assistente de programação Python, desenvolvido para ajudar iniciantes a compreender conceitos de programação por meio de explicações, exemplos de código e referências à documentação.
+
+Este é meu primeiro exercício prático de aplicação de inteligência artificial dentro do Project Genesis. Reproduzi e personalizei uma demonstração guiada do curso antes de estudar os fundamentos de Python, utilizando essa experiência para explorar o funcionamento de um chatbot de IA de ponta a ponta.
+
+## Tecnologias utilizadas
+
+| Componente | Tecnologia |
+| --- | --- |
+| Linguagem da aplicação | Python |
+| Interface web | Streamlit |
+| Provedor do modelo de linguagem (LLM) | API da Groq |
+| Modelo configurado no protótipo | GPT-OSS-20B (`openai/gpt-oss-20b`) |
+| Estado da conversa | Gerenciamento de sessão do Streamlit |
+| Comportamento do assistente | Prompt de sistema |
+
+## Arquitetura do protótipo
+
+```mermaid
+flowchart LR
+    A[Pergunta do usuário] --> B[Interface Streamlit]
+    B --> C[Prompt de sistema e histórico da conversa]
+    C --> D[API da Groq / GPT-OSS-20B]
+    D --> E[Resposta do assistente]
+    E --> B
+```
+
+O protótipo foi projetado para fornecer explicações conceituais, exemplos comentados em Python, explicações detalhadas do código e referências à documentação oficial. As respostas geradas pela IA devem sempre ser verificadas.
+
+## Estado atual
+
+- [x] Personalização do protótipo apresentado no curso.
+- [x] Execução local da interface Streamlit.
+- [x] Prática de depuração de erros de sintaxe, nomes de variáveis e chamadas de métodos da API.
+- [ ] Verificar as respostas de ponta a ponta utilizando uma chave de API válida.
+- [ ] Publicar o código-fonte autorizado ou uma implementação desenvolvida de forma independente.
+- [ ] Adicionar instruções de instalação reproduzíveis e testes automatizados.
+
+A interface foi demonstrada em ambiente local. O funcionamento completo da API ainda não foi verificado de forma independente. Este repositório público documenta atualmente o exercício de aprendizado; o código-fonte derivado da aula não está incluído.
+
+## Roteiro de aprendizado e evolução
+
+| Versão | Etapa planejada |
+| --- | --- |
+| v1.0 | Protótipo inicial do chatbot desenvolvido com orientação |
+| v2.0 | Implementação independente e melhorias na interface |
+| v3.0 | Envio e análise de arquivos de código Python |
+| v4.0 | Armazenamento persistente das conversas |
+| v5.0 | Geração aumentada por recuperação (RAG) com documentação técnica |
+| v6.0 | Agentes especializados em programação |
+| v7.0 | Testes, arquitetura da aplicação e implantação |
+
+Essas etapas representam objetivos de aprendizado, não funcionalidades já implementadas.
+
+## Segurança
+
+Nunca publique chaves da API da Groq, arquivos de ambiente contendo credenciais ou dados privados de conversas. Utilize um gerenciador local de segredos ou um campo de senha para inserir credenciais.
+
+## Créditos
+
+Inspirado e adaptado localmente a partir do estudo de caso introdutório **DSA AI Coder**, do curso gratuito *Fundamentos de Linguagem Python* da [Data Science Academy](https://www.datascienceacademy.com.br/).
+
+Os créditos pela demonstração original pertencem à Data Science Academy. Este repositório documenta meu progresso de aprendizado e minha personalização do projeto, sem reivindicar a autoria do exercício original ou autorização para redistribuir seu código-fonte.
+
+## Sobre o Project Genesis
+
+O Project Genesis é minha iniciativa independente de aprendizado, voltada ao desenvolvimento de habilidades práticas em programação, dados e inteligência artificial. Este repositório registra o ponto de partida dessa jornada.
+
+**Autor da documentação de aprendizado:** [Kaio Gabriel da Silva](https://github.com/Kgasil)
