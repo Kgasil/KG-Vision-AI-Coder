@@ -4,6 +4,9 @@
 
 [KG Professional Portfolio 1.0 — Portfólio pessoal / Personal portfolio](https://kgasil.github.io/portfolio/) · [Estudo de caso / Case study](https://kgasil.github.io/portfolio/cases.html#ai-coder)
 
+<!-- kg-current-training -->
+[Formação e experiência atualizadas / Updated education and experience](https://kgasil.github.io/portfolio/resume.html).
+
 
 **Project Genesis | Project #001 | v1.0 — Learning prototype**
 
