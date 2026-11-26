@@ -1,5 +1,10 @@
 # K&G Vision — AI Coder
 
+<!-- kg-personal-portfolio-v1 -->
+
+[KG Professional Portfolio 1.0 — Portfólio pessoal / Personal portfolio](https://kgasil.github.io/portfolio/) · [Estudo de caso / Case study](https://kgasil.github.io/portfolio/cases.html#ai-coder)
+
+
 **Project Genesis | Project #001 | v1.0 — Learning prototype**
 
 [English](#overview) | [Português (Brasil)](#versão-em-português-pt-br)
